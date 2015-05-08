@@ -30,6 +30,7 @@ this->addToolBar(tbar);
 text1 = new QTextEdit;
 text1= new QTextEdit(this);
 text1->setGeometry(110,30,200,420);
+text1->setReadOnly(true);
 
 text2 = new QTextEdit;
 text2= new QTextEdit(this);
